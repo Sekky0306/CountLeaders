@@ -13,8 +13,7 @@
 		9F6FD4FF2644E7FD00F5B2FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F6FD4FD2644E7FD00F5B2FC /* Main.storyboard */; };
 		9F6FD5012644E7FF00F5B2FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F6FD5002644E7FF00F5B2FC /* Assets.xcassets */; };
 		9F6FD5042644E7FF00F5B2FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F6FD5022644E7FF00F5B2FC /* LaunchScreen.storyboard */; };
-		9F795976264502FD00B92362 /* haikei.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 9F795975264502FD00B92362 /* haikei.jpeg */; };
-		9F795978264506BD00B92362 /* haikei2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 9F795977264506BD00B92362 /* haikei2.jpeg */; };
+		9FD00F4F264CE5E100F8295D /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FD00F4E264CE5E000F8295D /* icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,8 +25,7 @@
 		9F6FD5002644E7FF00F5B2FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9F6FD5032644E7FF00F5B2FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9F6FD5052644E7FF00F5B2FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9F795975264502FD00B92362 /* haikei.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = haikei.jpeg; path = ../../haikei.jpeg; sourceTree = "<group>"; };
-		9F795977264506BD00B92362 /* haikei2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = haikei2.jpeg; path = ../../haikei2.jpeg; sourceTree = "<group>"; };
+		9FD00F4E264CE5E000F8295D /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +58,7 @@
 		9F6FD4F62644E7FD00F5B2FC /* Count */ = {
 			isa = PBXGroup;
 			children = (
-				9F795977264506BD00B92362 /* haikei2.jpeg */,
-				9F795975264502FD00B92362 /* haikei.jpeg */,
+				9FD00F4E264CE5E000F8295D /* icon.png */,
 				9F6FD4F72644E7FD00F5B2FC /* AppDelegate.swift */,
 				9F6FD4F92644E7FD00F5B2FC /* SceneDelegate.swift */,
 				9F6FD4FB2644E7FD00F5B2FC /* ViewController.swift */,
@@ -131,10 +128,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FD00F4F264CE5E100F8295D /* icon.png in Resources */,
 				9F6FD5042644E7FF00F5B2FC /* LaunchScreen.storyboard in Resources */,
-				9F795978264506BD00B92362 /* haikei2.jpeg in Resources */,
 				9F6FD5012644E7FF00F5B2FC /* Assets.xcassets in Resources */,
-				9F795976264502FD00B92362 /* haikei.jpeg in Resources */,
 				9F6FD4FF2644E7FD00F5B2FC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -293,12 +289,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F3R77N599D;
 				INFOPLIST_FILE = Count/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = MyCompany.Count;
+				PRODUCT_BUNDLE_IDENTIFIER = app.sekido.sekidon.Count;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -310,12 +307,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F3R77N599D;
 				INFOPLIST_FILE = Count/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = MyCompany.Count;
+				PRODUCT_BUNDLE_IDENTIFIER = app.sekido.sekidon.Count;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
